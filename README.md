@@ -30,12 +30,12 @@ pip install -r requirements.txt
 Create a `.env` file in your project folder and add the following:
 
 ```bash
-GREENAPI_INSTANCE_ID=your-instance-id
-GREENAPI_API_TOKEN=your-api-token
-AI_API_URL=http://localhost:8000/groq-ai
+INSTANCE_ID="your-instance-id"
+INSTANCE_API_KEY="your-instance-api-key"
+GROQ_API_KEY="your-groq-api-key"
 ```
 Replace your-instance-id and your-api-token with the credentials from Green API.
-Set AI_API_URL to the locally running Whysk AI endpoint.
+Set your-groq-api-key with the API key from GROQ.
 
 ## Step 4: Start the WhatsApp Bot
 Run the bot using:
